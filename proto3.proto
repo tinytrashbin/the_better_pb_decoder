@@ -1,0 +1,7 @@
+
+
+message Proto3 {
+  optional Proto1 p1 = 1;
+  optional int32 i1 = 2;
+  optional int32 i2 = 3;
+}

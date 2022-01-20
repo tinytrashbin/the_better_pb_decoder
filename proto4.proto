@@ -1,0 +1,7 @@
+
+
+message Proto4 {
+  optional Proto1 a = 1;
+  optional Proto2 b = 2;
+  optional Proto3 c = 3;
+}

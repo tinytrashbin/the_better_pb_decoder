@@ -1,0 +1,6 @@
+
+
+message Proto2 {
+  optional string str_value = 1;
+  optional int64 int_value = 2;
+}
