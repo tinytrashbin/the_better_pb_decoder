@@ -9,7 +9,8 @@
 
 int main() {
   Proto4::Decoder p4("....");
-  const char* p4_c_bytes = p4.c(); // or p4.c().data()
   std::cout << p4.c().decoder().p1().decoder().x() << std::endl;
+
+  const char* p4_c_bytes = p4.c(); // or p4.c().data()
 }
 

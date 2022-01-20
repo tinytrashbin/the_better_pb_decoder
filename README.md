@@ -1,4 +1,4 @@
-## The better pbzero Decoder interface with ZERO overhead
+## A better pbzero Decoder interface with ZERO overhead
 
 ### Goal : Reduce code. Improve readability. Improve dev-experience.
 
@@ -43,5 +43,5 @@ const char* bytes = a.b();  // Implicit.
 
 ### Check these files:
 
-- main1.cpp and main2.cpp
+- `main1.cpp`, `main2.cpp` and `pb_stub.h`
 
