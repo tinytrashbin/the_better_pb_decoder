@@ -45,3 +45,8 @@ const char* bytes = a.b();  // Implicit.
 
 - `main1.cpp`, `main2.cpp` and `pb_stub.h`
 
+Compile & run:
+
+ `g++ -std=c++11 main1.cpp && ./a.out`
+
+ `g++ -std=c++11 main2.cpp && ./a.out`
